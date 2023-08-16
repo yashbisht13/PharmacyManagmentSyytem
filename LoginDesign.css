@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 24, 2022, 5:00:19 PM
+    Author     : Junaid
+*/
+
+.left-form{
+    -fx-background-color: linear-gradient(to bottom right, #449d6b,#633364 );
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px 0px 0.4px 0.4px;
+}
+.right-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px 0.4px 0.4px 0px;
+}
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.close:hover{
+    -fx-background-color: #c90000;
+    -fx-fill: #fff;
+}
+.textfield{
+    -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px;
+    -fx-border-radius: 4px;
+    -fx-font-sze:13px;
+    -fx-font-family:"Tahoma";
+}
+.textfield:focused{
+    -fx-border-color: linear-gradient(to bottom right, #449d6b,#633364 );
+    -fx-border-width: 1.4px;
+}
+.login-btn{
+    -fx-background-color: linear-gradient(to bottom right, #449d6b,#633364 );
+    -fx-background-radius: 15px;
+    -fx-cursor: hand;
+    -fx-font-size:14px;
+    -fx-text-fill: #fff;
+    -fx-font-family:"Arial";
+}
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #633364,#449d6b );
+}

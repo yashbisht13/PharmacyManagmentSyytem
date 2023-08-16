@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Pharmacy1.jnlp">
+  <information>
+    <title>Pharmacy1</title>
+    <vendor>Junaid</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Pharmacy1.jar" size="27033" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\javafx-swt.jar" size="37122" download="eager" />
+    <jar href="lib\jfreechart-1.0.19.jar" size="1565065" download="eager" />
+    <jar href="lib\jrt-fs.jar" size="110846" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.30.jar" size="2513563" download="eager" />
+    <jar href="lib\ojdbc14.jar" size="1536554" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="pharmacy1.Pharmacy1"  name="Pharmacy1" />
+  <update check="always"/>
+</jnlp>
